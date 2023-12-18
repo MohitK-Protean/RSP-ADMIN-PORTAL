@@ -1,0 +1,38 @@
+@import "../../styles/base/colors";
+
+.tag {
+  font-size: 14px;
+  border: none;
+}
+.tag-medium {
+  padding: 6px 12px;
+  border-radius: 100px;
+}
+.tag-large {
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.tag-primary {
+  background-color: rgba(7, 135, 254, 0.1);
+  color: $blue;
+}
+.tag-secondary {
+  background-color: rgba(254, 7, 170, 0.1);
+  color: $pink;
+}
+.tag-success {
+  background-color: rgba(37, 185, 70, 0.1);
+  color: $success;
+}
+.tag-warning {
+  background-color: rgba(254, 140, 7, 0.1);
+  color: $warning;
+}
+.tag-danger {
+  background-color: rgba(231, 20, 45, 0.1);
+  color: $danger;
+}
+.tag-violet {
+  background-color: rgba(151, 20, 231, 0.1);
+  color: $violet;
+}

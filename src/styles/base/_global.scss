@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: $font-family-regular;
+}
+
+body {
+  @extend .min-h-screen;
+  margin: 0;
+  background-color: $color-secondary;
+}
+
+a {
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-primary;
+}
+a:hover {
+  color: $color-primary;
+}
+
+.rsp-title-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.ant-card-head-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: $font-family-heading-bold;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: $text-primary;
+  font-family: $font-family-heading-bold;
+}
+.ant-tabs .ant-tabs-tab-btn {
+  color: $text-secondary;
+  font-family: $font-family-heading-medium;
+}
+.ant-carousel .slick-dots-bottom > li > button {
+  background-color: $grey;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.ant-carousel .slick-dots-bottom > li.slick-active > button {
+  background-color: $color-primary;
+}

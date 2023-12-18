@@ -1,0 +1,25 @@
+// -----Theme colors-----
+$color-primary: #554af0;
+$color-primary-light: #f7f7ff;
+$color-secondary: #e3e3e3;
+$primary-border: #d3d3d3;
+$error: #f52f2c;
+
+// ----Text-colors----
+$white: #ffffff;
+$text-primary: #191728;
+$text-secondary: #918fa0;
+$text-secondary-dark: #5f5d6e;
+$danger: #e7142d;
+$success: #25b946;
+$blue: #0787fe;
+$pink: #fe07aa;
+$warning: #fe8c07;
+$violet: #9714e7;
+
+$grey: #dfdfeb;
+$black: #000000;
+
+:export {
+  primaryColor: $color-primary;
+}

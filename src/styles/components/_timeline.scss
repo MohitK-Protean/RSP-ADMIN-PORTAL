@@ -1,0 +1,7 @@
+.ant-timeline .ant-timeline-item {
+  padding-bottom: 80px;
+
+  & .ant-timeline-item-tail {
+    border-inline-start: 2px dashed rgba(5, 5, 5, 0.06);
+  }
+}

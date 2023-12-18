@@ -1,0 +1,34 @@
+{
+  "collection": {
+    "info": {
+      "_postman_id": "dd7600c7-bd2f-4d28-93d2-ffe069e870e5",
+      "name": "working-rsp-apis",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "updatedAt": "2022-12-07T19:28:57.000Z"
+    },
+    "item": [
+      {
+        "name": "login",
+        "id": "e47c5f9f-3aa3-401d-8a5f-942535bb9394",
+        "protocolProfileBehavior": { "disableBodyPruning": true },
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "    {\r\n\r\n        \"email\" :\"vijayyes15@yahoo.com\",\r\n        \"password\" :\"Qwerty@1234\"\r\n    }",
+            "options": { "raw": { "language": "json" } }
+          },
+          "url": {
+            "raw": "http://103.162.247.53:9090/auth/login",
+            "protocol": "http",
+            "host": ["103", "162", "247", "53"],
+            "port": "9090",
+            "path": ["auth", "login"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../styles/base/colors";
+
+.logs-title {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: $text-secondary-dark;
+  margin-bottom: 8px;
+}
+.logs-date {
+  color: $black;
+  font-weight: 700;
+}

@@ -1,0 +1,49 @@
+@import "../base/colors";
+
+.ant-layout .ant-layout-header {
+  background-color: inherit;
+  padding: 0;
+}
+.ant-layout-sider {
+  max-width: 317px !important;
+  min-width: 317px !important;
+}
+.ant-menu .ant-menu-item-group {
+  & .ant-menu-item-group-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: $text-secondary-dark;
+  }
+
+  & .ant-menu-item-group-list {
+    .ant-menu-item {
+      color: $text-secondary;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    & .ant-menu-item .ant-menu-item-active {
+      background-color: rgba(85, 74, 240, 0.1);
+      color: $color-primary;
+    }
+  }
+}
+.ant-menu-item-group {
+  & .ant-menu-item-group-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: $text-secondary-dark;
+  }
+  & ul.ant-menu-item-group-list li.ant-menu-item {
+    color: $text-secondary;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+  }
+}

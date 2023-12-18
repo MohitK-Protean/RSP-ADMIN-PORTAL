@@ -1,0 +1,51 @@
+export const accessManagement = [
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Inactive",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Admin",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+  {
+    name: "Akash Guru",
+    email: "akash.guru@kotak.com",
+    role: "Inactive",
+    lastLogin: "10:10 PM, 10th Sept, 2022",
+    status: "Active",
+  },
+];

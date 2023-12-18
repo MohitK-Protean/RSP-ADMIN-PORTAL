@@ -1,0 +1,9 @@
+.select-container > div.ant-select-selector {
+  padding: 2px 15px !important;
+  min-height: 36px !important;
+  min-width: 150px;
+}
+
+.select-transparent > div.ant-select-selector {
+  background-color: transparent !important;
+}

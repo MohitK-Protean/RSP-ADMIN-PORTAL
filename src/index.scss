@@ -1,0 +1,17 @@
+@import "~antd/dist/reset.css";
+
+// ---- base import ----
+@import "./styles/base/spacing";
+@import "./styles/base/colors";
+@import "./styles/base/utils";
+@import "./styles/base/typography";
+@import "./styles/base/global";
+
+// ---- component import ----
+@import "./styles/components/button";
+@import "./styles/components/card";
+@import "./styles/components/layout";
+@import "./styles/components/modal";
+@import "./styles/components/select";
+@import "./styles/components/timeline";
+@import "./styles/components/dropdown";

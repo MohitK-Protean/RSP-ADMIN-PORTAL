@@ -1,0 +1,16 @@
+
+.logoutModal{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:20px;
+
+    & .modalFooter{
+        display:flex;
+        column-gap:14px;
+
+        & .footerBtn{
+            min-width:212px;
+        } 
+    }
+}

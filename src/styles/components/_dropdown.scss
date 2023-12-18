@@ -1,0 +1,14 @@
+@import "../base/colors";
+
+.ant-dropdown .ant-dropdown-menu {
+  padding: 0;
+
+  & .ant-dropdown-menu-item {
+    padding: 15px;
+    min-width: 200px;
+    &:hover {
+      background-color: rgba(85, 74, 240, 0.1);
+      color: $color-primary;
+    }
+  }
+}
